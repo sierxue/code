@@ -24,6 +24,7 @@ if __name__ == '__main__':
         if num.is_integer():
             even_odd_vending(int(num))
         else:
-            print('Please enter an integer')            
+            print('Please enter an integer')
+            # num = float(input('Enter an integer: '))
     except ValueError:
-        print('Please enter a number')
+        print('Exception: please enter a number')
