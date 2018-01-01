@@ -16,11 +16,12 @@ if __name__ == '__main__':
 
     if b.is_integer():
         eo = even_or_odd(b)
+        if eo == True:
+            print('Even nubmer')
+        else:
+            print('Odd number')
 
-    if eo == True:
-        print('Even nubmer')
+        for i in range(10):
+            print(b+2*i)
     else:
-        print('Odd number')
-
-    for i in range(10):
-        print(b+2*i)
+        print('Please enter an integer')
