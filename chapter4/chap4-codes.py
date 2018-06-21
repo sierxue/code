@@ -69,7 +69,7 @@ expr_QE = x**2 + 5*x + 4
 expr_QE2 = x**2 + x + 1
 sol = solve(expr_QE, dict=True)
 sol2 = solve(expr_QE2, dict=True)
-print
+print()
 
 print(sol)
 print()
